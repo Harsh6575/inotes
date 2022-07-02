@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
+const dotenv = require("dotenv");
+dotenv.config();
 
-// const mongoURI = "mongodb+srv://HPPATEL:aBkzs1Utr1lxi80C@inotes.3x5tp.mongodb.net/test";   
-
-const mongoURI = 'mongodb://localhost:27017/inotes';
+// const database = process.env.MONGOLAB_URI; 
+const database = 'mongodb://localhost:27017/inotes'; 
 
 const connectToMongo = () => {
-    mongoose.connect(mongoURI, () => {
+    mongoose.connect(database, () => {
         console.log("Connected to server sucessfully ");
     });
 }

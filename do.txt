@@ -1,6 +1,3 @@
 npm i react-router-dom
 
 npm i react-icons
-
-
-aBkzs1Utr1lxi80C

@@ -1,0 +1,15 @@
+aBkzs1Utr1lxi80C
+
+npm i express-validator
+
+npm i bcryptjs
+
+npm i jsonwebtoken
+
+npm i mongoose
+
+npm i express
+
+npm i cors
+
+npm i dotenv
